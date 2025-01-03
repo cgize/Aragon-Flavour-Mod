@@ -1,7 +1,7 @@
-# Crown of Aragon Mod for Crusader Kings III
+# Kingdom of Aragon Flavor Mod
 
 ## Overview
-A comprehensive mod that introduces unique decisions and features for the Aragonese culture in Crusader Kings III. Experience the historical development of the Crown of Aragon through new mechanics, decisions, and cultural innovations.
+A mod that introduces unique decisions and features for the aragonese culture.
 
 ## Major Features
 - **Establish the Principality of Catalonia**
