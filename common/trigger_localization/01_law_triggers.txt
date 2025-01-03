@@ -1,0 +1,3 @@
+﻿succession_laws_must_not_be_removed = {
+	global = succession_laws_must_not_be_removed
+}

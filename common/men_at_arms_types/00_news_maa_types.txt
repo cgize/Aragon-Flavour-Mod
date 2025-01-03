@@ -1,0 +1,80 @@
+﻿# standar values
+@high_maint_mult = 3
+
+@skirmisher_recruitment_cost = 45
+@skirmisher_low_maint_cost = 0.15
+@skirmisher_high_maint_cost = @[skirmisher_low_maint_cost * high_maint_mult]
+
+@archers_recruitment_cost = 55
+@archers_low_maint_cost = 0.2
+@archers_high_maint_cost = @[archers_low_maint_cost * high_maint_mult]
+
+@pikemen_recruitment_cost = 75
+@pikemen_low_maint_cost = 0.3
+@pikemen_high_maint_cost = @[pikemen_low_maint_cost * high_maint_mult]
+
+@heavy_infantry_recruitment_cost = 90
+@heavy_infantry_low_maint_cost = 0.4
+@heavy_infantry_high_maint_cost = @[heavy_infantry_low_maint_cost * high_maint_mult]
+
+@light_cavalry_recruitment_cost = 85
+@light_cavalry_low_maint_cost = 0.35
+@light_cavalry_high_maint_cost = @[light_cavalry_low_maint_cost * high_maint_mult]
+
+@heavy_cavalry_recruitment_cost = 200
+@heavy_cavalry_low_maint_cost = 0.7
+@heavy_cavalry_high_maint_cost = @[heavy_cavalry_low_maint_cost * high_maint_mult]
+
+@siege_weapons_recruitment_cost = 60
+@siege_weapons_low_maint_cost = 0.1
+@siege_weapons_high_maint_cost = @[siege_weapons_low_maint_cost * high_maint_mult]
+
+# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 80
+
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_infantry_bankrupting = 15
+
+@provisions_cost_cavalry_cheap = 7
+@provisions_cost_cavalry_moderate = 15
+@provisions_cost_cavalry_expensive = 21
+@provisions_cost_cavalry_bankrupting = 30
+
+@provisions_cost_special_cheap = 6
+@provisions_cost_special_moderate = 12
+@provisions_cost_special_expensive = 18
+@provisions_cost_special_bankrupting = 24
+
+almogavar = {
+    type = skirmishers
+
+    damage = 28             # Alto daño por su agresividad característica
+    toughness = 18          # Resistentes pero no tanto como infantería pesada
+    pursuit = 28            # Excelentes persiguiendo enemigos en retirada
+    screen = 18             # Buenos protegiendo las líneas
+    
+    terrain_bonus = {
+        hills = { damage = 12 toughness = 12 pursuit = 8 screen = 8}                 # Bueno en colinas
+        mountains = { damage = 16  toughness = 16 pursuit = 10 screen = 10}          # Especialistas en terreno montañoso
+        desert_mountains = { damage = 16  toughness = 16 pursuit = 10 screen = 10}   # Igual de efectivos en montañas desérticas
+        wetlands = { damage = 12 pursuit = 12 }                                      # Buenos en terreno difícil en general
+    }
+
+    counters = {
+        heavy_infantry = 2
+    }
+
+    buy_cost = { gold = @[skirmisher_recruitment_cost * 1.2] }
+    low_maintenance_cost = { gold = @[skirmisher_low_maint_cost * 1.2] }
+    high_maintenance_cost = { gold = @[skirmisher_high_maint_cost * 1.2] }
+    provision_cost = @provisions_cost_infantry_moderate
+    
+    stack = 100
+    ai_quality = { value = culture_ai_weight_skirmishers }
+    icon = spanish_almogavar
+}

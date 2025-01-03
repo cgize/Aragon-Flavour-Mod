@@ -1,0 +1,32 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+k_catalunya = {
+	color = { 191 100 10 }
+	definite_form = yes
+    capital = c_barcelona
+	can_be_named_after_dynasty = no
+}
+e_aragoncrown = {
+	color = { 235 123 38 }
+	definite_form = yes
+	capital = c_zaragoza
+	can_be_named_after_dynasty = no
+}
+
+
+# Titles from MPE
+
+k_catalonia = {
+	color = { 191 100 10 }
+	capital = c_barcelona
+	can_create = { always = no }
+}
+
+e_aragon_crown = {
+	color = { 235 123 38 }
+	capital = c_toledo
+	can_create = { always = no }
+}

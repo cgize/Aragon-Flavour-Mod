@@ -1,0 +1,31 @@
+﻿# Custom election type: Barcelonian Elective
+barcelonian_elective = {
+	elector_vote_strength = {
+		base = 1
+	}
+
+    electors = {
+        add = holder
+        add = {
+            type = holder_direct_vassals
+            limit = {
+                highest_held_title_tier = tier_duchy
+                is_adult = yes
+                NOT = { has_trait = incapable }
+            }
+        }
+        max = 3
+	}
+	candidate_score = {
+		base = 100
+	}
+	
+    candidates = {
+        add = {
+            type = holder_close_family
+            limit = {
+                barcelonian_elective_potential_candidate_trigger = yes
+            }
+        }
+    }
+}

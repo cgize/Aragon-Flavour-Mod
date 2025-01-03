@@ -1,0 +1,6 @@
+﻿
+100214 = {
+	prefix = "dynnp_de"
+	name = "dynn_Razes"
+	culture = "occitan"
+}

@@ -1,0 +1,24 @@
+﻿@almogavar_01 = "gfx/interface/icons/culture_innovations/innovation_almogavar_tactics.dds"
+
+innovation_almogavar_tactics = {
+    group = culture_group_regional
+    culture_era = culture_era_high_medieval
+    icon = @almogavar_01
+
+    potential = {
+        OR = {
+            this = culture:aragonese
+            this = culture:catalan
+            any_parent_culture_or_above = {
+                OR = {
+                    this = culture:aragonese
+                    this = culture:catalan
+                }
+            }
+        }
+    }
+
+    unlock_maa = almogavar
+
+    flag = global_maa
+}

@@ -1,0 +1,61 @@
+﻿l_spanish:
+  #titles
+  k_catalunya: "Principado de Cataluña"
+  e_aragoncrown: "Corona de Aragón"
+  e_aragoncrown_adj: "aragonés"
+  k_catalunya_adj: "catalán"
+  k_catalunya_article: "el "
+  e_aragoncrown_article: "la "
+  king_male_aragonese: "Rei"
+  king_female_aragonese: "Reina"
+  prince_male_catalan: "Princeps"
+  prince_female_catatlan: "Principissa"
+
+  #decisions
+  completely_controls_aragon_tooltip: "Tienes el control total del [GetTitleByKey('k_aragon').GetName]."
+  iberia_north_africa.0131.desc.intro: "Con la creación de [k_aragon.GetDefinitiveName], he propiciado una floreciente expansión de la cultura [aragonese_culture.GetName] en las villas y ciudades de mi señorío. No solo en el corazón de $d_aragon$, sino también en cada condado que poseo, unificando a mi familia y mis súbditos bajo el noble legado aragonés."
+  found_principado_cataluna_decision: "Establecer el Principado de Cataluña"
+  found_principado_cataluna_decision_desc: "Proclamo el Principado de Cataluña, unificando los territorios catalanes bajo una sola corona y consolidando su unidad política y cultural. Este acto asegura la prosperidad de nuestras tierras, marcando el inicio de una nueva era que honra nuestro legado y garantiza estabilidad para las futuras generaciones."
+  found_principado_cataluna_decision_confirm: "Confirmar"
+  found_principado_cataluna_decision_tooltip: "Proclamarás el Principado de Cataluña, estableciendo un nuevo reino."
+  found_crown_of_aragon_decision: "Establecer la Corona de Aragón"
+  found_crown_of_aragon_decision_confirm: "Confirmar"
+  found_crown_of_aragon_decision_desc: "Hoy doy vida a la Corona de Aragón, uniendo bajo un mismo cetro los destinos de nuestros reinos. Esta unión no es solo un pacto político, sino un compromiso con la diversidad y el esplendor de nuestras tierras. Con este acto, forjamos un poder que dominará el comercio y la cultura del Mediterráneo, dejando una huella imborrable en la historia."
+  found_crown_of_aragon_decision_tooltip: "Proclamarás la Corona de Aragón, estableciendo un nuevo imperio."
+
+  #events
+ crown_aragon_event.001.t:0 "Nacimiento de la Corona de Aragón"
+ crown_aragon_event.001.opening_titles:0 "Unificación de Reinos"
+ crown_aragon_event.001.desc:0 "En un momento crucial para la historia de la península ibérica, los reinos de Aragón y Cataluña se han unido bajo una misma corona, dando origen a una potencia destinada a jugar un papel crucial en Europa. Este día marca el nacimiento de la Corona de Aragón, un faro de unidad y ambición."
+ crown_aragon_event.001.a:0 "¡Gloria a la Corona de Aragón!"
+ crown_aragon_event.002.t:0 "Reconocimiento del Principado de Cataluña"
+ crown_aragon_event.002.opening_titles:0 "Autonomía Reconocida"
+ crown_aragon_event.002.desc:0 "En un gesto de respeto hacia las tradiciones y autonomía catalanas, el Principado de Cataluña ha sido formalmente reconocido como una entidad política dentro de la Corona de Aragón. Este es un nuevo paso hacia la consolidación de la identidad catalana bajo el paraguas de la Corona."
+ crown_aragon_event.002.a:0 "¡Larga vida al Principado de Cataluña!"
+  
+  #wars
+  #war_878_Barcelona_Independence: "Alzamiento de Barcelona"
+
+  #laws
+  barcelones_succession_law:0 "Sucesión Barcelonesa"
+  barcelones_succession_law_effects:0 "La ley de sucesión barcelonesa establece que la titularidad del Ducado de Barcelona será transmitida al poseedor del Reino de Aragón."
+  succession_laws_must_not_be_removed:0 "No puedes eliminar las leyes de sucesión del Principado de Cataluña."
+  barcelonian_elective_candidates:0 "Heredero principal"
+  barcelonian_elective_candidates_tooltip:0 "Según la antigua ley de sucesión barcelonesa, concebida para preservar la unidad del Principado, solo el heredero principal puede aspirar a ser candidato. Este privilegio asegura que el legado de la nobleza catalana permanezca fuerte y estable, respetando las tradiciones que forjaron estas tierras."
+  barcelonian_elective_electors:0 "Gobernante y vasallos"
+  barcelonian_elective_electors_tooltip:0 "Los votantes son el gobernante y hasta tres de sus vasallos directos, seleccionados entre los nobles que ostenten títulos de ducado. Estos deben ser adultos, en pleno uso de sus facultades, y representantes dignos de la grandeza del Principado, pues su voto definirá el futuro del trono."
+
+  #dynasties
+  dynn_Razes: "Razes"
+
+  #nicknames
+  nick_senyor: "Senyor"
+  nick_senyor_desc: "Un título respetado que refleja la autoridad y responsabilidad de un líder noble, reconocido como protector y guía de sus tierras y vasallos."
+
+  #innovations
+  innovation_almogavar_tactics:0 "Táctica Almogávar"
+  innovation_almogavar_tactics_desc:0 "Las montañas y terrenos escarpados de la península ibérica no favorecen a las grandes formaciones ni a las cargas de caballería pesada. Los almogávares han adaptado sus tácticas para sacar ventaja de estas tierras, empleando emboscadas rápidas y ataques quirúrgicos que desbaratan al enemigo antes de que pueda reaccionar."
+
+  #MMA
+  almogavar:0 "Almogávar"
+  almogavar_flavor:0 "#F Armados con equipo ligero y jabalinas cortas, estos ágiles guerreros destacan en terrenos accidentados, emboscando a sus enemigos con ataques rápidos y devastadores, convirtiéndose en un terror para los desprevenidos.#!"

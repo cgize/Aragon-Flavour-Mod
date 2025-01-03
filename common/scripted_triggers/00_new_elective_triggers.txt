@@ -1,0 +1,27 @@
+﻿barcelonian_elective_potential_candidate_trigger = {
+    save_temporary_scope_as = potential_candidate
+    
+    # Debe ser el heredero del jugador
+    this = scope:holder.player_heir
+    
+    # Ya no verificamos is_adult = yes
+    NOT = { has_trait = incapable }
+    
+    # Requisitos del gobierno y reino
+    has_same_government = scope:holder
+    
+    # Verificación de fe si es necesario
+    OR = {
+        scope:holder = {
+            NAND = {
+                exists = faith.	
+                this = faith.religious_head
+            }
+        }
+        this.faith = scope:holder.faith
+    }
+    
+    # Verificaciones generales de elegibilidad
+    has_unelectable_trait_trigger = no
+    has_unelectable_government_trigger = no
+}

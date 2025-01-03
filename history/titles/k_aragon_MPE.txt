@@ -1,0 +1,1674 @@
+
+d_zaragoza = {
+	711.1.1 = {
+		de_jure_liege = k_valencia
+	}
+	1035.10.18 = {
+		de_jure_liege = k_aragon
+	}
+}
+
+d_catalunya_nova = {
+	711.1.1 = {
+		de_jure_liege = k_valencia
+	}
+	1035.10.18 = {
+		de_jure_liege = k_aragon
+	}
+}
+
+d_urgell = {
+	711.1.1 = {
+		de_jure_liege = k_aquitaine
+	}
+	1035.10.18 = {
+		de_jure_liege = k_aragon
+	}
+}
+
+c_osona = {
+	1178.1.1 = { change_development_level = 24 }
+
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = 73784 # Duke Guillaume de Septimanie of Barcelona
+	}
+	850.1.1 = {
+		holder = 200142 # Duke Aleran de Troyes of Barcelona
+	}
+	851.1.1 = {
+		holder = 200144 # Duke Isembard of Barcelona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1126.1.1 = {
+		holder = guardia_1 # Reverter, viscount of Barcelona
+		liege = k_aragon
+	}
+	1142.1.1 = {
+		holder = guardia_2 # Berenguer, viscount of Barcelona
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_manresa = {
+	1178.1.1 = { change_development_level = 24 }
+
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = 73784 # Duke Guillaume de Septimanie of Barcelona
+	}
+	850.1.1 = {
+		holder = 200142 # Duke Aleran de Troyes of Barcelona
+	}
+	851.1.1 = {
+		holder = 200144 # Duke Isembard of Barcelona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1126.1.1 = {
+		holder = guardia_1 # Reverter, viscount of Barcelona
+		liege = k_aragon
+	}
+	1142.1.1 = {
+		holder = guardia_2 # Berenguer, viscount of Barcelona
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_berga = {
+	1178.1.1 = { change_development_level = 24 }
+
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = 73784 # Duke Guillaume de Septimanie of Barcelona
+	}
+	850.1.1 = {
+		holder = 200142 # Duke Aleran de Troyes of Barcelona
+	}
+	851.1.1 = {
+		holder = 200144 # Duke Isembard of Barcelona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1126.1.1 = {
+		holder = guardia_1 # Reverter, viscount of Barcelona
+		liege = k_aragon
+	}
+	1142.1.1 = {
+		holder = guardia_2 # Berenguer, viscount of Barcelona
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_penedes = {
+	1178.1.1 = { change_development_level = 24 }
+
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = 73784 # Duke Guillaume de Septimanie of Barcelona
+	}
+	850.1.1 = {
+		holder = 200142 # Duke Aleran de Troyes of Barcelona
+	}
+	851.1.1 = {
+		holder = 200144 # Duke Isembard of Barcelona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1126.1.1 = {
+		holder = guardia_1 # Reverter, viscount of Barcelona
+		liege = k_aragon
+	}
+	1142.1.1 = {
+		holder = guardia_2 # Berenguer, viscount of Barcelona
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+b_manresa = {
+	1040.1.1 = {
+		holder = 72300 # Ramon Folc I de Cardona
+	}
+	1131.7.19 = {
+		holder = 210506 # Ramon Berenguer IV de Barcelona
+	}
+	1162.8.6 = {
+		holder = 210500 # Alfons II de barcelona
+	}
+	1176.1.1 = {
+		holder = 71604 # Guillem de Cardona
+	}
+}
+
+c_balaguer = {
+	798.1.1 = {
+		holder = visigothic0006 # Count Borrell de Osona of Cerdaña
+		liege = k_aquitaine
+	}
+	800.1.1 = {
+		liege = d_barcelona
+	}
+	820.1.1 = {
+		holder = 70300 # Duke Aznar I of Aragon
+	}
+	832.1.1 = {
+		holder = 70277 # Duke Galindo II of Aragón
+	}
+	838.1.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = 73786 # Salomon de Gothia
+	}
+	867.1.1 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 200155 # Sunifred II de Barcelona
+	}
+	948.1.1 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110571 # Ermengol I d'Urgell
+	}
+	1010.9.1 = {
+		holder = 110570 # Ermengol II d'Urgell
+	}
+	1038.1.1 = {
+		holder = 110560 # Ermengol III d'Urgell
+	}
+	1066.4.1 = {
+		holder = 110550 # Ermengol IV d'Urgell
+	}
+	1092.3.28 = {
+		holder = 210576 # Ermengol V d'Urgell
+	}
+	1102.9.14 = {
+		holder = 210572 # Ermengol VI d'Urgell
+	}
+	1154.6.28 = {
+		holder = 210571 # Ermengol VII d'Urgell
+	}
+	1164.1.1 = {
+		liege = k_aragon
+	}
+	1184.8.11 = {
+		holder = 210570 # Ermengol VIII d'Urgell
+	}
+	1209.10.16 = {
+		holder = 72139 # Aurembaix d'Urgell
+	}
+	1213.1.1 = {
+		holder = 72186 # Guerau de Cabrera
+	}
+	1228.1.1 = {
+		holder = 72139 # Aurembaix d'Urgell
+	}
+	1229.7.15 = {
+		holder = 209508 # Pedro de Bourgogne
+	}
+	1231.8.1 = {
+		holder = 72218 # Ponç de Cabrera
+	}
+	1243.1.1 = {
+		holder = 72220 # Ermengol IX de Cabrera
+	}
+	1243.7.1 = {
+		holder = 72223 # Alvar de Cabrera
+	}
+	1267.3.1 = {
+		holder = 72232 # Ermengol X de Cabrera
+	}
+	1314.7.1 = {
+		holder = 460511 # Teresa d'Entença
+	}
+	1327.10.20 = {
+		holder = 460520 # Jaume d'Urgell
+	}
+}
+
+b_vielha = {
+	872.1.1 = {
+		holder = 70272 # Count Ramon II of Ribargorza
+	}
+	920.1.1 = {
+		holder = 70278 # Llop de Pallars
+	}
+	947.1.1 = {
+		holder = occitan0062 # Isarn de Pallars
+	}
+	948.1.1 = {
+		holder = catalan0113 # Ramon III de Pallars
+	}
+	995.1.1 = {
+		holder = catalan0114 # Borrell de Pallars
+	}
+	996.1.1 = {
+		holder = 70280 # Sunyer de Pallars
+	}
+	1010.1.1 = {
+		holder = catalan0115 # Ermengol de Pallars
+	}
+	1011.1.1 = {
+		holder = 70281 # Ramon IV de Pallars Jussà
+	}
+	1047.1.1 = {
+		holder = 70283 # Ramon V de Pallars Jussà
+	}
+	1098.1.1 = {
+		holder = 70261 # Arnau Ramon de Pallars Jussà
+	}
+	1111.1.1 = {
+		holder = 72057 # Pere Ramon de Pallars Jussà
+	}
+	1113.1.1 = {
+		holder = 72058 # Bernat Ramon de Pallars Jussà
+	}
+	1102.9.14 = {
+		holder = 210572 # Ermengol VI d'Urgell
+	}
+	1154.6.28 = {
+		holder = 210571 # Ermengol VII d'Urgell
+	}
+	1174.1.1 = {
+		holder = 72065 # Ramon de Pallars Jussa
+	}
+	1182.1.1 = {
+		holder = 72060 # Dolça de Pallars Jussà
+	}
+}
+
+c_besalu = {
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = occitan0140 # Guifred, Count of Girona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = occitan0139 # Count Auger of Girona
+	}
+	870.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1105.1.1 = {
+		holder = 72156
+		liege = k_aragon
+	}
+	1132.1.1 = {
+		holder = 72161
+	}
+	1165.1.1 = {
+		holder = 72185 # Ponc de Cabrera
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_ampurias = {
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 200153 # Sunyer d'Empuries
+	}
+	848.1.1 = {
+		holder = occitan0140 # Guifred, Count of Girona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	862.1.1 = {
+		holder = 74101 # Sunyer II d'Ampurias
+	}
+	870.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1097.1.1 = {
+		holder = 210508 # Ramon Berenguer III de Barcelona
+	}
+	1105.1.1 = {
+		holder = 72156
+		liege = k_aragon
+	}
+	1132.1.1 = {
+		holder = 72161
+	}
+	1165.1.1 = {
+		holder = 72185 # Ponc de Cabrera
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_tortosa_spain = {
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+		liege = d_aragon
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-848 Unknown rulers
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = 73851 # A'id ibn Kaysan
+	}
+	892.1.1 = {
+		holder = 73852 # Yahya ibn A'id
+	}
+	898.1.1 = {
+		holder = 73853 # Malik ibn Yahya
+	}
+	930.1.1 = {
+		holder = levantine0127 # Ali ibn Malik
+	}
+	950.1.1 = {
+		holder = 200041 # Abd al-Rahman ibn Ali
+	}
+	978.1.1 = {
+		holder = 73846 # Walih Abd al-Rahman ibn Muhammad of Zaragoza
+		liege = d_aragon
+	}
+	989.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman iban Yahya of Zaragoza
+	}
+	1009.3.3 = {
+		holder = andalusian0101 # Emir Labib of Valencia
+		liege = 0
+	}
+	1009.7.1 = {
+		holder = 73184 # Emir Mundir I of Zaragoza
+		liege = d_aragon
+	}
+	1010.1.1 = {
+		holder = andalusian0101 # Emir Labib of Valencia (2nd time)
+		liege = 0
+	}
+	1016.1.1 = {
+		liege = d_valencia
+	}
+	1038.1.1 = {
+		holder = andalusian0102 # Muqatil
+	}
+	1053.1.1 = {
+		holder = andalusian0103 # Ya'la
+	}
+	1057.1.1 = {
+		holder = andalusian0104 # Nabil
+	}
+	1060.1.1 = {
+		holder = 3938 # Sheik al-Muzaffar II of Lleida
+		liege = 0
+	}
+	1079.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+		liege = d_aragon
+	}
+	1081.1.1 = {
+		holder = 73191 # Sheik Imad al-Dawla of Lleida
+		liege = 0
+	}
+	1090.1.1 = {
+		holder = 73191 # Sheik Sayyid al-Dawla
+	}
+	1102.1.1 = {
+		holder = 73180 # Abd al-Malik Hudid
+		liege = d_aragon
+	}
+	1110.5.31 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Walih Abu Bakr ibn Ibrahim of Zaragoza
+	}
+	1118.12.18 = {
+		liege = k_aragon
+	}
+	1135.1.1 = {
+		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+	}
+	1136.1.1 = {
+		liege = k_aragon
+	}
+	1174.3.21 = {
+		holder = 210550 # Berenguer de Vilademuls, archbishop of Tarragona
+		government = theocracy_government
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_egea = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 27 }
+ 
+	7671.1.1 = {
+		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
+		liege = d_aragon
+		government = clan_government
+	}
+	788.6.10 = {
+		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
+	}
+	789.1.1 = {
+		holder = 200051 # Walih Matruh ibn Sulayman of Barcelona
+	}
+	792.1.1 = {
+		holder = levantine0005 # Walih Abd al-Malik ibn Abd l-Wahhad of Zaragoza
+	}
+	798.1.1 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-852: Unknown Walih
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = levantine0008 # Walih Muhammad ibn Wuhayd of Zaragoza
+	}
+	872.1.22 = {
+		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
+	}
+	882.12.1 = {
+		holder = 73815 # Walih Muhammd ibn Lubb of Zaragoza
+	}
+	#884-890: Ahmad ibn al-Barra al-Qurasí
+	890.1.1 = {
+		holder = 73841 # Walih Muhammad al-Anqar of Zaragoza
+	}
+	925.1.1 = {
+		holder = 73842 # Walih Hashim ibn Muhammad al-Anqar of Zaragoza
+	}
+	930.1.1 = {
+		holder = 73843 # Walih Muhammad ibn Hashim of Zaragoza
+	}
+	939.1.1 = {
+		holder = 73845 # Walih Yahya ibn Muhammad of Zaragoza
+	}
+	975.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman ibn Yahya of Zaragoza
+	}
+	975.7.1 = {
+		holder = 73845 # Walih Yahya ibn Muhammad of Zaragoza (2nd time)
+	}
+	976.1.1 = {
+		holder = 73846 # Walih Abd al-Rahman ibn Muhammad of Zaragoza
+	}
+	989.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman ibn Yahya of Zaragoza (2nd time)
+	}
+	1013.1.1 = {
+		holder = 73184 # Emir Mundir I of Zaragoza
+	}
+	1022.1.1 = {
+		holder = 73185 # Emir al-Muzaffar of Zaragoza
+	}
+	1036.1.1 = {
+		holder = 73186 # Emir Mundir II of Zaragoza
+	}
+	1038.8.23 = {
+		holder = 73187 # Emir Abdallah ibn Hakam of Zaragoza
+	}
+	1038.9.20 = {
+		holder = 3933 # Emir al-Musta'in I of Zaragoza
+	}
+	1047.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+	}
+	1082.1.1 = {
+		holder = 3935 # Emir al-Mu'taman of Zaragoza
+	}
+	1085.1.1 = {
+		holder = 45005 # Emir al-Musta'in II of Zaragoza
+	}
+	1110.1.24 = {
+		holder = 73180 # Emir Imad al-Dawla of Zaragoza
+	}
+	1110.5.31 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Walih Abu Bakr ibn Ibrahim
+	}
+	1118.12.18 = {
+		holder = 70232 # Alfonso I Jimena
+	}
+	1134.9.7 = {
+		holder = 70233 # Ramiro II Jimena
+	}
+	1157.8.16 = {
+		holder = 210507 # Petronila Ramírez Jimena
+	}
+	1164.1.1 = {
+		holder = 210500 # Alfons II d'Aragó
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II d'Aragó
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I d'Aragó
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III d'Aragó
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III d'Aragó
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II d'Aragó
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV d'Aragó
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV d'Aragó
+	}
+}
+
+c_zuera = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 27 }
+ 
+	7671.1.1 = {
+		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
+		liege = d_aragon
+		government = clan_government
+	}
+	788.6.10 = {
+		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
+	}
+	789.1.1 = {
+		holder = 200051 # Walih Matruh ibn Sulayman of Barcelona
+	}
+	792.1.1 = {
+		holder = levantine0005 # Walih Abd al-Malik ibn Abd l-Wahhad of Zaragoza
+	}
+	798.1.1 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-852: Unknown Walih
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = levantine0008 # Walih Muhammad ibn Wuhayd of Zaragoza
+	}
+	872.1.22 = {
+		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
+	}
+	882.12.1 = {
+		holder = 73815 # Walih Muhammd ibn Lubb of Zaragoza
+	}
+	#884-890: Ahmad ibn al-Barra al-Qurasí
+	890.1.1 = {
+		holder = 73841 # Walih Muhammad al-Anqar of Zaragoza
+	}
+	925.1.1 = {
+		holder = 73842 # Walih Hashim ibn Muhammad al-Anqar of Zaragoza
+	}
+	930.1.1 = {
+		holder = 73843 # Walih Muhammad ibn Hashim of Zaragoza
+	}
+	939.1.1 = {
+		holder = 73845 # Walih Yahya ibn Muhammad of Zaragoza
+	}
+	975.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman ibn Yahya of Zaragoza
+	}
+	975.7.1 = {
+		holder = 73845 # Walih Yahya ibn Muhammad of Zaragoza (2nd time)
+	}
+	976.1.1 = {
+		holder = 73846 # Walih Abd al-Rahman ibn Muhammad of Zaragoza
+	}
+	989.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman ibn Yahya of Zaragoza (2nd time)
+	}
+	1013.1.1 = {
+		holder = 73184 # Emir Mundir I of Zaragoza
+	}
+	1022.1.1 = {
+		holder = 73185 # Emir al-Muzaffar of Zaragoza
+	}
+	1036.1.1 = {
+		holder = 73186 # Emir Mundir II of Zaragoza
+	}
+	1038.8.23 = {
+		holder = 73187 # Emir Abdallah ibn Hakam of Zaragoza
+	}
+	1038.9.20 = {
+		holder = 3933 # Emir al-Musta'in I of Zaragoza
+	}
+	1047.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+	}
+	1082.1.1 = {
+		holder = 3935 # Emir al-Mu'taman of Zaragoza
+	}
+	1085.1.1 = {
+		holder = 45005 # Emir al-Musta'in II of Zaragoza
+	}
+	1110.1.24 = {
+		holder = 73180 # Emir Imad al-Dawla of Zaragoza
+	}
+	1110.5.31 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Walih Abu Bakr ibn Ibrahim
+	}
+	1118.12.18 = {
+		holder = 70232 # Alfonso I Jimena
+	}
+	1134.9.7 = {
+		holder = 70233 # Ramiro II Jimena
+	}
+	1157.8.16 = {
+		holder = 210507 # Petronila Ramírez Jimena
+	}
+	1164.1.1 = {
+		holder = 210500 # Alfons II d'Aragó
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II d'Aragó
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I d'Aragó
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III d'Aragó
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III d'Aragó
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II d'Aragó
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV d'Aragó
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV d'Aragó
+	}
+}
+
+c_belchite = {
+	7671.1.1 = {
+		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
+		liege = d_aragon
+		government = clan_government
+	}
+	788.6.10 = {
+		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
+	}
+	789.1.1 = {
+		holder = 200051 # Walih Matruh ibn Sulayman of Barcelona
+	}
+	792.1.1 = {
+		holder = levantine0005 # Walih Abd al-Malik ibn Abd l-Wahhad of Zaragoza
+	}
+	798.1.1 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-852: Unknown Walih
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = levantine0008 # Walih Muhammad ibn Wuhayd of Zaragoza
+	}
+	872.1.22 = {
+		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
+	}
+	882.12.1 = {
+		holder = 73815 # Walih Muhammd ibn Lubb of Zaragoza
+	}
+	#884-890: Ahmad ibn al-Barra al-Qurasí
+	890.1.1 = {
+		holder = 73841 # Walih Muhammad al-Anqar of Zaragoza
+	}
+	925.1.1 = {
+		holder = 73842 # Walih Hashim ibn Muhammad al-Anqar of Zaragoza
+	}
+	930.1.1 = {
+		holder = 73843 # Walih Muhammad ibn Hashim of Zaragoza
+	}
+	939.1.1 = {
+		holder = 73845 # Walih Yahya ibn Muhammad of Zaragoza
+	}
+	968.1.1 = {
+		holder = baranis0079 # Lubb banu Razin
+	}
+	1000.1.1 = {
+		holder = baranis0080 # Jalaf ibn Lubb
+	}
+	1012.1.1 = {
+		holder = baranis0081 # Hudhayl ibn Jalaf
+		liege = 0
+	}
+	1045.1.1 = {
+		holder = 20883 # Abd al-Malik ibn Hudhayl
+	}
+	1103.5.18 = {
+		holder = 20884 # Yahya ibn Abd al-Malik
+	}
+	1104.4.6 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Walih Abu Bakr ibn Ibrahim of Zaragoza
+		liege = d_aragon
+	}
+	1118.12.18 = {
+		holder = 73246 # Muhammad Musavid
+	}
+	1143.1.1 = {
+		holder = 224014 # Hakam Laridid
+	}
+	1170.1.1 = {
+		liege = k_navarra
+		holder = 72048 # Pedro Rodríguez de Azagra
+	}
+	1177.3.16 = {
+		liege = 0
+	}
+	1198.1.1 = {
+		holder = 72044 # Fernando Rodríguez de Azagra
+	}
+	1200.1.1 = {
+		holder = 72039 # Pedro Fernández de Azagra
+	}
+	1241.4.4 = {
+		holder = 71573 # Alvar Pérez de Azagra
+	}
+	1276.1.1 = {
+		holder = 71574 # Teresa Alvarez de Azagra
+	}
+	1284.1.1 = {
+		holder = 71744 # Ferran Pere de Barcelona
+		liege = k_aragon
+	}
+	1327.1.1 = {
+		holder = 71698 # Alfons de Lauria
+	}
+}
+
+c_ribagorza = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 24 }
+ 
+	799.1.1 = {
+		holder = frankish0005 # Duke Aureolo of Aragon
+		liege = k_navarra
+	}
+	806.1.1 = {
+		holder = 70300 # Duke Aznar I of Aragon
+	}
+	820.1.1 = {
+		holder = 70302 # Duke García I of Aragon
+	}
+	833.1.1 = {
+		holder = 70303 # Duke Galindo I of Aragon
+	}
+	844.1.1 = {
+		holder = 70277 # Duke Galindo II of Aragon
+	}
+	867.1.1 = {
+		holder = 70276 # Duke Aznar II of Aragon
+	}
+	893.1.1 = {
+		holder = 70274 # Duke Galindo III of Aragon
+	}
+	922.1.1 = {
+		holder = 70275 # Duchess Andregoto of Aragon
+	}
+	943.1.1 = {
+		holder = 70124 # King Sancho II of Navarra
+	}
+	994.12.1 = {
+		holder = 106040 # King García III of Navarra
+	}
+	999.12.8 = {
+		holder = 106030 # King Sancho III of Navarra
+	}
+	1035.10.18 = {
+		holder = 110510 # King Ramiro I of Aragon
+		liege = k_aragon
+	}
+	1063.5.8 = {
+		holder = 110500 # King Sancho I of Aragon
+	}
+	1178.1.1 = {
+		holder = erill_1 # Ramon III d'Erill
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460580 # Ramon Berenguer de Barcelona
+	}
+}
+
+c_sastago = {
+	7671.1.1 = {
+		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
+		liege = d_aragon
+		government = clan_government
+	}
+	788.6.10 = {
+		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
+	}
+	789.1.1 = {
+		holder = 200051 # Walih Matruh ibn Sulayman of Barcelona
+	}
+	792.1.1 = {
+		holder = levantine0005 # Walih Abd al-Malik ibn Abd l-Wahhad of Zaragoza
+	}
+	798.1.1 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-852: Unknown Walih
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = levantine0008 # Walih Muhammad ibn Wuhayd of Zaragoza
+	}
+	872.1.22 = {
+		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
+	}
+	882.12.1 = {
+		holder = 73815 # Walih Muhammd ibn Lubb of Zaragoza
+	}
+	896.1.1 = {
+		holder = 200026 # Walih Lubb ibn Muhammad of Toledo
+		liege = d_toledo
+	}
+	907.9.30 = {
+		holder = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
+		liege = 0
+	}
+	913.10.23 = {
+		holder = andalusian0006 # Sheik Abd al-Malik ibn Muhammad al-Tawil of Huesca
+	}
+	914.4.23 = {
+		holder = andalusian0007 # Amrus ibn Muhammad al-Tawil
+	}
+	915.1.1 = {
+		holder = basque0138 # Yunus ibn Muhammad
+	}
+	926.1.1 = {
+		holder = 73842 # Walih Hashim ibn Muhammad al-Anqar of Zaragoza
+		liege = d_aragon
+	}
+	930.1.1 = {
+		holder = 73843 # Walih Muhammad ibn Hashim of Zaragoza
+	}
+	939.1.1 = {
+		holder = 73846 # Walih Abd al-Rahman ibn Muhammad of Zaragoza
+	}
+	989.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman ibn Yahya of Zaragoza (2nd time)
+	}
+	1013.1.1 = {
+		holder = 73184 # Emir Mundir I of Zaragoza
+	}
+	1022.1.1 = {
+		holder = 73185 # Emir al-Muzaffar of Zaragoza
+	}
+	1036.1.1 = {
+		holder = 73186 # Emir Mundir II of Zaragoza
+	}
+	1038.8.23 = {
+		holder = 73187 # Emir Abdallah ibn Hakam of Zaragoza
+	}
+	1038.9.20 = {
+		holder = 3933 # Emir al-Musta'in I of Zaragoza
+	}
+	1047.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+	}
+	1082.1.1 = {
+		holder = 3935 # Emir al-Mu'taman of Zaragoza
+	}
+	1085.1.1 = {
+		holder = 45005 # Emir al-Musta'in II of Zaragoza
+	}
+	1110.1.1 = {
+		holder = 73180 # Abd al-Malik Hudid
+	}
+	1110.5.31 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Tifilwit Tifilwitid
+		liege = k_maghreb
+	}
+	1118.12.18 = {
+		liege = k_aragon
+	}
+	1135.1.1 = {
+		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+	}
+	1136.1.1 = {
+		liege = k_aragon
+	}
+	1174.3.21 = {
+		holder = 210550 # Berenguer de Vilademuls, archbishop of Tarragona
+		government = theocracy_government
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}
+
+c_conflent = {
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		liege = d_barcelona
+	}
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	}
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = 70140 # Duke Bera of Barcelona
+	}
+	820.2.1 = {
+		holder = 200141 # Duke Rampon of Barcelona
+	}
+	825.1.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	}
+	832.3.1 = {
+		holder = 167791 # Duke Berengar of Toulouse
+	}
+	835.6.1 = {
+		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	}
+	844.5.1 = {
+		holder = 73785 # Duke Sunifred of Barcelona
+	}
+	848.1.1 = {
+		holder = occitan0140 # Guifred, Count of Girona
+	}
+	852.1.1 = {
+		holder = 200145 # Duke Odalric of Barcelona
+	}
+	858.1.1 = {
+		holder = 200148 # Duke Hunifred of Barcelona
+	}
+	865.1.1 = {
+		holder = occitan0105
+	}
+	870.1.1 = {
+		holder = 168137 # Duke Bernard de Gothia of Barcelona
+	}
+	878.9.11 = {
+		holder = 70150 # Duke Guifré I of Barcelona
+	}
+	897.8.11 = {
+		holder = 70152 # Duke Guifré II Borrell of Barcelona
+	}
+	911.1.1 = {
+		holder = 110536 # Duke Sunyer of Barcelona
+	}
+	947.1.1 = {
+		holder = occitan0113 # Duke Miró of Barcelona
+	}
+	966.10.31 = {
+		holder = 110538 # Duke Borrell II of Barcelona
+	}
+	992.9.30 = {
+		holder = 110540 # Duke Ramon Borrell of Barcelona
+	}
+	1017.9.8 = {
+		holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	}
+	1035.5.26 = {
+		holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	}
+	1076.5.26 = {
+		holder = 110525 # Berenguer Ramon II de Barcelona
+	}
+	1078.1.1 = {
+		holder = 110582
+	}
+	1098.1.1 = {
+		holder = 110585
+	}
+	1137.1.1 = {
+		holder = 72238
+	}
+	1166.1.1 = {
+		holder = 72245 # Dalmau de Rocaberti
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 460600 # Jaume I de Barcelona
+	}
+	1276.7.27 = {
+		holder = 460590 # Pere III de Barcelona
+	}
+	1285.11.11 = {
+		holder = 71739 # Alfons III de Barcelona
+	}
+	1291.6.18 = {
+		holder = 460560 # Jaume II de Barcelona
+	}
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
+	}
+}

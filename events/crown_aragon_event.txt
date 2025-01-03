@@ -1,0 +1,61 @@
+﻿namespace = crown_aragon_event
+
+#window = visit_settlement_window (big window)
+
+# Corona de Aragón
+crown_aragon_event.001 = {
+    type = character_event
+    title = crown_aragon_event.001.t
+    desc = {
+        triggered_desc = {
+            trigger = { exists = title:e_aragoncrown }
+            desc = {
+                desc = crown_aragon_event.001.opening_titles
+                desc = double_line_break            
+            }
+        }
+        desc = crown_aragon_event.001.desc
+    }
+    theme = crown
+    left_portrait = {
+        character = root
+    }
+    
+    immediate = {
+        play_music_cue = "mx_cue_positive_effect"
+    }
+
+    option = {
+        name = crown_aragon_event.001.a
+        create_crown_aragon_empire_effect = yes
+    }
+}
+
+# Principado de Cataluña
+crown_aragon_event.002 = {
+    type = character_event
+    title = crown_aragon_event.002.t
+    desc = {
+        triggered_desc = {
+            trigger = { exists = title:e_aragoncrown }
+            desc = {
+                desc = crown_aragon_event.002.opening_titles
+                desc = double_line_break
+            }
+        }
+        desc = crown_aragon_event.002.desc
+    }
+    theme = crown
+    left_portrait = {
+        character = root
+    }
+    
+    immediate = {
+        play_music_cue = "mx_cue_positive_effect"
+    }
+
+    option = {
+        name = crown_aragon_event.002.a
+        create_principado_cataluna_effect = yes
+    }
+}

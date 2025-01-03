@@ -1,0 +1,26 @@
+﻿title_succession_laws = {
+	# Simplified Custom Succession
+	barcelones_succession_law = {
+        can_title_have = {
+            OR = {
+                this = title:k_catalunya
+                this = title:d_barcelona
+                this = title:c_barcelona
+            }
+        }
+        should_show_for_title = {
+            always = yes
+        }
+		can_remove_from_title = {
+			custom_description = {
+				text = "succession_laws_must_not_be_removed"
+				always = no
+			}
+		}
+		succession = {
+			order_of_succession = election
+			election_type = barcelonian_elective
+		}
+		title_allegiance_opinion = 10
+	}
+}

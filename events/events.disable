@@ -1,0 +1,116 @@
+﻿crown_aragon_event.003 = {
+    type = character_event
+    theme = crown
+    title = cultural_aragon.003.t
+    desc = cultural_aragon.003.desc
+
+    trigger = {
+    has_title = title:e_aragoncrown
+    culture = { has_cultural_era_or_later = culture_era_early_medieval }
+    }
+
+    delay = { months = { 6 12 } }
+
+    option = {
+        name = cultural_aragon.003.a
+        add_pressed_claim = title:d_athens
+        add_pressed_claim = title:d_thessaly
+        }
+    }
+
+    namespace = troyes_council_event
+
+troyes_council_event.1001 = {
+    type = character_event
+    title = troyes_council_event.1001.t
+    desc = troyes_council_event.1001.desc
+
+    # Trigger asegura que el evento se dispara con un contexto válido
+    trigger = {
+        exists = title:d_barcelona
+        title:d_barcelona = {
+            has_holder = yes
+            holder = { is_landed = yes }
+        }
+    }
+
+    # Guarda el scope del titular de d_barcelona como troyes_target_duke
+    immediate = {
+        title:d_barcelona = {
+            if = {
+                limit = { has_holder = yes }
+                holder = {
+                    save_scope_as = troyes_target_duke
+                }
+            }
+        }
+    }
+
+    # Opciones del evento
+    option = {
+        name = troyes_council_event.1001.option_1
+        hidden_effect = {
+            if = {
+                limit = { is_ai = yes }
+                trigger_event = troyes_council_event.1002
+            }
+            else = {
+                trigger_event = troyes_council_event.1003
+            }
+        }
+    }
+}
+
+troyes_council_event.1002 = {
+    type = character_event
+    title = troyes_council_event.1002.t
+    desc = troyes_council_event.1002.desc
+
+    # Verifica que troyes_target_duke existe
+    trigger = {
+        event_target:troyes_target_duke = { exists = yes }
+    }
+
+    immediate = {
+        troyes_council_effect = yes
+    }
+
+    option = {
+        name = troyes_council_event.1002.option_1
+        hidden_effect = {
+            log = "Efectos aplicados a la IA exitosamente."
+        }
+    }
+}
+
+troyes_council_event.1003 = {
+    type = character_event
+    title = troyes_council_event.1003.t
+    desc = troyes_council_event.1003.desc
+
+    trigger = {
+        event_target:troyes_target_duke = { exists = yes }
+    }
+
+    option = {
+        name = troyes_council_event.1003.option_1
+        hidden_effect = {
+            event_target:troyes_target_duke = {
+                troyes_council_effect = yes
+            }
+        }
+    }
+
+    option = {
+        name = troyes_council_event.1003.option_2
+        hidden_effect = {
+            event_target:troyes_target_duke = {
+                add_trait = excommunicated
+                start_war = {
+                    target = liege
+                    casus_belli = troyes_independence_cb
+                }
+            }
+        }
+    }
+}

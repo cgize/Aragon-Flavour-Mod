@@ -1,0 +1,289 @@
+﻿d_barcelona={
+	pattern="pattern_solid.dds"
+	color1="yellow"
+	color2="red"
+	colored_emblem={
+		color1="red"
+		color2="red"
+		texture="ce_ordinary_pales_4.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+		}
+	}
+}
+
+e_aragoncrown = {
+	pattern = "pattern_solid.dds"
+	color1="yellow"
+	color2="red"
+	colored_emblem = {
+		texture = "ce_ordinary_pales_4.dds"
+		color1="red"
+		color2="yellow"
+		instance = { scale = { 0.76 1.0 }  }
+	}
+}
+
+k_catalunya={
+	pattern="ps_pattern_quarterly.dds"
+	color1= "white"
+	color2="yellow"
+	color3="red"
+	colored_emblem={
+		color1="red"
+		color2="red"
+		texture="ps_ord_bars_four.dds"
+		instance={
+			position={ 0.700000 0.240000 }
+			scale={ 0.400000 0.460000 }
+			depth=2.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		texture="ce_block_03.dds"
+		instance={
+			position={ 0.300000 0.240000 }
+			scale={ 0.400000 0.470000 }
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		color2="white"
+		texture="ce_block_03.dds"
+		instance={
+			position={ 0.300000 0.250000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		texture="ce_block_03.dds"
+		instance={
+			position={ 0.700000 0.680000 }
+			scale={ 0.400000 0.420000 }
+			depth=4.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		color2="red"
+		texture="ps_ord_bars_four.dds"
+		instance={
+			position={ 0.300000 0.740000 }
+			scale={ 0.400000 0.530000 }
+			depth=3.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		color2=black
+		color3=black
+		texture="ce_block_03.dds"
+		instance={
+			position={ 0.700000 0.680000 }
+			scale={ 0.400000 0.400000 }
+			depth=5.010000
+		}
+	}
+}
+
+
+k_sicily_arag={
+	pattern="pattern_vertical_split_01.dds"
+	color1="yellow"
+	color2="yellow"
+	colored_emblem={
+		color1=black
+		color2="red"
+		color3="white"
+		texture="cat_eagle13_wappen.dds"
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ -0.320000 0.320000 }
+		}
+
+		instance={
+			position={ 0.750000 0.420000 }
+			scale={ 0.320000 0.320000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1="yellow"
+		color2="red"
+		texture="ce_vertical_stripes_01.dds"
+		instance={
+			scale={ 0.810000 1.000000 }
+			depth=4.010000
+		}
+	}
+
+	colored_emblem={
+		color1="white"
+		texture="ce_ordinary_pile_02_inverted.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			depth=2.010000
+			rotation=270
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			depth=3.010000
+			rotation=90
+		}
+	}
+}
+
+k_sardinia = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "green"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 }  }
+	}
+}
+
+k_sardinia_arag={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=red
+		texture="ce_ordinary_cross_thin.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_ordinary_pale_5.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ -0.500000 0.500000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		color3=white
+		texture="ce_moors_head.dds"
+		instance={
+			position={ 0.260000 0.210000 }
+			scale={ 0.320000 0.320000 }
+			depth=1.010000
+		}
+		instance={
+			position={ 0.740000 0.210000 }
+			scale={ 0.320000 0.320000 }
+			depth=1.010000
+		}
+		instance={
+			position={ 0.730000 0.700000 }
+			scale={ 0.260000 0.260000 }
+			depth=1.010000
+		}
+		instance={
+			position={ 0.290000 0.700000 }
+			scale={ 0.260000 0.260000 }
+			depth=1.010000
+		}		
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ps_special_crown_cut_eagle.dds"
+		instance={
+			position={ 0.270000 0.130000 }
+			scale={ 0.240000 0.200000 }
+			rotation=14
+		}
+		instance={
+			position={ 0.750000 0.130000 }
+			scale={ 0.240000 0.200000 }
+			rotation=14
+		}
+		instance={
+			position={ 0.740000 0.630000 }
+			scale={ 0.200000 0.180000 }
+			rotation=14
+		}
+		instance={
+			position={ 0.300000 0.630000 }
+			scale={ 0.200000 0.180000 }
+			rotation=14
+		}
+	}
+}
+
+k_valencia_arag={
+	pattern="pattern_solid.dds"
+	color1="yellow"
+	color2="red"
+	colored_emblem={
+		color1=blue
+		color2="yellow"
+		texture="ce_bar_valencia_1.dds"
+		instance={
+			position={ 0.480000 0.320000 }
+			scale={ 1.30000 0.650000 }
+			depth=3.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.500000 0.240000 }
+			scale={ 1.000000 0.620000 }
+			depth=2.010000
+		}
+	}
+
+	colored_emblem={
+		color1="yellow"
+		color2="green"
+		texture="ce_bar_valencia_3.dds"
+		instance={
+			position={ 0.500000 0.390000 }
+			scale={ 1.300000 1.200000 }
+			depth=1.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1="red"
+		texture="ce_ordinary_pales_4.dds"
+		instance={
+			position={ 0.500000 0.750000 }
+			scale={ 0.800000 1.000000 }
+		}
+	}
+}
+
+

@@ -1,0 +1,38 @@
+﻿visigothic0022 = {
+	name = "Engeralda" # Wife of count Borrell d'Osona
+	dynasty = 100213 # Carcassonne
+	culture = visigothic
+	religion = catholic
+	female = yes
+
+	father = visigothic0016 # Lata
+	mother = visigothic0023 # Beralda, mother of Bellon count of Carcassonna
+
+	775.1.1 = {
+		birth = yes
+	}
+	791.1.1 = {
+		add_spouse = visigothic0006
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+visigothic0023 = {
+	name = "Beralda" # mother of Bellon count of Carcassonna
+	dynasty = 100214 # Razès
+	culture = visigothic
+	religion = catholic
+	female = yes
+
+	750.1.1 = {
+		birth = yes
+	}
+	766.1.1 = {
+		add_spouse = visigothic0016
+	}
+	785.1.1 = {
+		death = yes
+	}
+}

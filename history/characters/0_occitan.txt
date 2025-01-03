@@ -1,0 +1,41 @@
+﻿occitan0141 = {
+	name = "Quixol" # Wife of Count Sunyer I of Ampurias
+	dynasty = 100204 # Barcelona
+	culture = occitan
+	religion = catholic
+	female = yes
+
+	father = visigothic0006
+	mother = visigothic0022
+
+	810.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		add_spouse = 200153 # Count Sunyer I d'Ampurias
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+
+occitan0142 = {
+	name = "Bella" # paternal aunt of Guifré the Hairy
+	dynasty = 100204 # Barcelona
+	culture = occitan
+	religion = catholic
+	female = yes
+
+	father = visigothic0006
+	mother = visigothic0022
+
+	801.1.1 = {
+		birth = yes
+	}
+	817.1.1 = {
+		add_spouse = 168121 # Duke Loup III Centulle de Gascogne
+	}
+	847.1.1 = {
+		death = yes
+	}
+}

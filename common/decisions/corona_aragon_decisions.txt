@@ -1,0 +1,160 @@
+﻿#CORONA DE ARAGON (IMPERIO)
+found_crown_of_aragon_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds" }
+    decision_group_type = major
+
+    ai_check_interval = 120
+
+    desc = found_crown_of_aragon_decision_desc
+    selection_tooltip = found_crown_of_aragon_decision_tooltip
+
+    is_shown = {
+        is_ruler = yes
+        is_landed = yes
+        NOT = { exists = title:e_aragoncrown.holder }
+		has_title = title:k_aragon
+
+    }
+
+    is_valid = {
+        is_independent_ruler = yes
+        religion = religion:christianity_religion
+        has_title = title:k_aragon
+		has_title = title:k_catalunya
+        has_title = title:k_valencia
+        has_title = title:k_sardinia
+        has_title = title:k_sicily
+    }
+
+    is_valid_showing_failures_only = {
+        is_adult = yes
+        is_imprisoned = no
+        is_at_war = no
+    }
+
+    effect = {
+        save_scope_as = founder
+        show_as_tooltip = { create_crown_aragon_empire_effect = yes }
+        trigger_event = { id = crown_aragon_event.001 }
+		#hidden_effect = { create_crown_aragon_empire_effect = yes }
+    }
+
+    cost = {
+        gold = 1000
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 25
+    }
+}
+
+
+#PRINCIPADO DE CATALUÑA (REINO)
+found_principado_cataluna_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds" }
+    decision_group_type = major
+
+    ai_check_interval = 120
+
+    desc = found_principado_cataluna_decision_desc
+    selection_tooltip = found_principado_cataluna_decision_tooltip
+
+    is_shown = {
+        is_ruler = yes
+        is_landed = yes
+		has_title = title:k_aragon
+        NOT = { exists = title:k_catalunya.holder }
+    }
+
+    is_valid = {
+        is_independent_ruler = yes
+        custom_tooltip = { 
+        text = completely_controls_aragon_tooltip
+        completely_controls = title:k_aragon
+        }   
+        has_title = title:d_barcelona
+        
+        OR = {
+            AND = {
+                exists = title:d_urgell
+                has_title = title:d_urgell
+            }
+            NOT = { exists = title:d_urgell }
+        }
+        
+        OR = {
+            AND = {
+                exists = title:d_catalunya_nova
+                has_title = title:d_catalunya_nova
+            }
+            NOT = { exists = title:d_catalunya_nova }
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        is_adult = yes
+        is_imprisoned = no
+        is_at_war = no
+    }
+
+    effect = {
+        save_scope_as = founder
+        show_as_tooltip = { create_principado_cataluna_effect = yes }
+        trigger_event = { id = crown_aragon_event.002 }
+		#hidden_effect = { create_principado_cataluna_effect = yes}
+
+    }
+
+    cost = {
+        gold = 400
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 25
+    }
+}
+
+# CONCILIO DE TROYES (878)
+# troyes_council_decision = {
+#     picture = { 
+#         reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+#     }
+#     decision_group_type = major
+#     desc = troyes_council_decision_desc
+#     selection_tooltip = troyes_council_decision_tooltip
+#
+#     is_shown = {
+#         has_title = title:k_france
+#         current_year >= 878
+#     }
+#
+#     is_valid = {
+#         has_title = title:k_france
+#         current_year >= 878
+#     }
+#
+#     is_valid_showing_failures_only = {
+#         is_available_adult = yes
+#     }
+#
+#     effect = {
+#         show_as_tooltip = { troyes_council_effect = yes }
+#         hidden_effect = { troyes_council_effect = yes }
+#     }
+#
+#     ai_potential = {
+#         always = yes
+#     }
+#
+#     ai_will_do = {
+#         base = 100
+#     }
+# }

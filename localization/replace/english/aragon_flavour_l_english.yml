@@ -1,0 +1,61 @@
+﻿l_english:
+  #titles
+  k_catalunya: "Principality of Catalonia"
+  e_aragoncrown: "Crown of Aragon"
+  e_aragoncrown_adj: "aragonese"
+  k_catalunya_adj: "catalan"
+  k_catalunya_article: "the "
+  e_aragoncrown_article: "the "
+  king_male_aragonese: "Rei"
+  king_female_aragonese: "Reina"
+  prince_male_catalan: "Princeps"
+  prince_female_catatlan: "Principissa"
+
+  #decisions
+  completely_controls_aragon_tooltip: "You have complete control over [GetTitleByKey('k_aragon').GetName]."
+  iberia_north_africa.0131.desc.intro: "With the creation of [k_aragon.GetDefinitiveName], I have fostered a flourishing expansion of [aragonese_culture.GetName] culture in the towns and cities under my domain. Not only in the heart of $d_aragon$, but also in every county I rule, uniting my family and my subjects under the noble Aragonese legacy."
+  found_principado_cataluna_decision: "Establish the Principality of Catalonia"
+  found_principado_cataluna_decision_desc: "I proclaim the Principality of Catalonia, uniting the Catalan territories under a single crown and consolidating their political and cultural unity. This act ensures the prosperity of our lands, marking the beginning of a new era that honors our legacy and guarantees stability for future generations."
+  found_principado_cataluna_decision_confirm: "Confirm"
+  found_principado_cataluna_decision_tooltip: "You will proclaim the Principality of Catalonia, establishing a new realm."
+  found_crown_of_aragon_decision: "Establish the Crown of Aragon"
+  found_crown_of_aragon_decision_confirm: "Confirm"
+  found_crown_of_aragon_decision_desc: "Today, I give life to the Crown of Aragon, uniting the destinies of our kingdoms under a single scepter. This union is not just a political pact, but a commitment to the diversity and splendor of our lands. With this act, we forge a power that will dominate Mediterranean trade and culture, leaving an indelible mark on history."
+  found_crown_of_aragon_decision_tooltip: "You will proclaim the Crown of Aragon, establishing a new empire."
+
+  #events
+  crown_aragon_event.001.t:0 "Birth of the Crown of Aragon"
+  crown_aragon_event.001.opening_titles:0 "Unification of Kingdoms"
+  crown_aragon_event.001.desc:0 "In a crucial moment for the history of the Iberian Peninsula, the kingdoms of Aragon and Catalonia have united under a single crown, giving rise to a power destined to play a crucial role in Europe. This day marks the birth of the Crown of Aragon, a beacon of unity and ambition."
+  crown_aragon_event.001.a:0 "Glory to the Crown of Aragon!"
+  crown_aragon_event.002.t:0 "Recognition of the Principality of Catalonia"
+  crown_aragon_event.002.opening_titles:0 "Recognized Autonomy"
+  crown_aragon_event.002.desc:0 "As a gesture of respect for Catalan traditions and autonomy, the Principality of Catalonia has been formally recognized as a political entity within the Crown of Aragon. This is a new step toward consolidating Catalan identity under the Crown's umbrella."
+  crown_aragon_event.002.a:0 "Long live the Principality of Catalonia!"
+
+  #wars
+  #war_878_Barcelona_Independence: "Barcelona Uprising"
+
+  #laws
+  barcelones_succession_law:0 "Barcelonian Succession"
+  barcelones_succession_law_effects:0 "The Barcelonian succession law ensures that the Duchy of Barcelona is passed to the holder of the Kingdom of Aragon."
+  succession_laws_must_not_be_removed:0 "You cannot remove the succession laws of the Principality of Catalonia."
+  barcelonian_elective_candidates:0 "Primary Heir"
+  barcelonian_elective_candidates_tooltip:0 "According to the ancient Barcelonian succession law, designed to preserve the unity of the Principality, only the primary heir is eligible as a candidate. This privilege ensures that the legacy of Catalan nobility remains strong and stable, honoring the traditions that forged these lands."
+  barcelonian_elective_electors:0 "Ruler and Vassals"
+  barcelonian_elective_electors_tooltip:0 "The electors are the ruler and up to three of their direct vassals, chosen from the nobility holding duchy titles. These must be adults, of sound mind, and worthy representatives of the Principality's greatness, as their vote will shape the future of the throne."
+
+  #dynasties
+  dynn_Razes: "Razes"
+
+  #nicknames
+  nick_senyor: "Senyor"
+  nick_senyor_desc: "A respected title that reflects the authority and responsibility of a noble leader, recognized as the protector and guide of their lands and vassals."
+
+  #innovations
+  innovation_almogavar_tactics:0 "Almogavar Tactics"
+  innovation_almogavar_tactics_desc:0 "The mountains and rugged terrain of the Iberian Peninsula do not favor large formations or heavy cavalry charges. The Almogavars have adapted their tactics to take advantage of these lands, employing quick ambushes and surgical strikes that disorient the enemy before they can react."
+
+  #MMA
+  almogavar:0 "Almogavar"
+  almogavar_flavor:0 "#F Armed with light equipment and short javelins, these agile warriors excel in rough terrain, ambushing their enemies with quick and devastating strikes, becoming a terror for the unwary.#!"

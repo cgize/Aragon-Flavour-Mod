@@ -1,0 +1,24 @@
+﻿# Guerra de Independencia del Duque de Barcelona
+war = {
+    name = "war_878_Barcelona_Independence"
+    start_date = 877.3.1
+    end_date = 878.5.18
+    targeted_titles = {
+        d_barcelona
+    }
+    casus_belli = independence_faction_war
+    attackers = { 168137 7561 168027 127007 168138 127019 } # IDs de los personajes atacantes
+    defenders = { 90104 90123 } # IDs de los personajes defensores
+
+    # Posición inicial de los personajes (opcional)
+    168137 = {
+        877.3.2= {
+            location = 2015 # ID de la provincia donde se encuentra el atacante principal
+        }
+    }
+    90104 = {
+        877.3.2 = {
+            location = 2333 # ID de la provincia donde se encuentra el defensor principal
+        }
+    }
+}

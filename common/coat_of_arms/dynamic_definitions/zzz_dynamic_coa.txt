@@ -1,0 +1,35 @@
+﻿k_sardinia = {
+    item = {
+        trigger = {
+            OR = {
+                holder = { culture = culture:aragonese }
+                holder = title:k_aragon.holder
+            }
+        }
+        coat_of_arms = k_sardinia_arag
+    }
+}
+
+k_sicily = {
+    item = {
+        trigger = {
+            OR = {
+                holder = { culture = culture:aragonese }
+                holder = title:k_aragon.holder
+            }
+        }
+        coat_of_arms = k_sicily_arag
+    }
+}
+
+k_valencia = {
+    item = {
+        trigger = {
+            OR = {
+                holder = { culture = culture:aragonese }
+                holder = title:k_aragon.holder
+            }
+        }
+        coat_of_arms = k_valencia_arag
+    }
+}

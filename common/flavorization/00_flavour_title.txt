@@ -1,0 +1,43 @@
+﻿prince_male_catalan = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 108
+	governments = { feudal_government administrative_government }
+	name_lists = { name_list_catalan }
+	titles = { k_catalunya }
+}
+
+prince_female_catalan = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 108
+	governments = { feudal_government administrative_government }
+	name_lists = { name_list_catalan }
+	titles = { k_catalunya }
+}
+
+king_male_aragonese = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 107
+	governments = { feudal_government administrative_government }
+	name_lists = { name_list_aragonese }
+	titles = { e_aragoncrown }
+}
+
+king_female_aragonese = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 107
+	governments = { feudal_government administrative_government }
+	name_lists = { name_list_aragonese }
+	titles = { e_aragoncrown }
+}

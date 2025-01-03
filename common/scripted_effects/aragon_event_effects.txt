@@ -1,0 +1,100 @@
+﻿create_principado_cataluna_effect = {
+    # Crear el título y manejar cambios de vasallaje
+    create_title_and_vassal_change = {
+        type = created
+        save_scope_as = title_change
+        add_claim_on_loss = no
+    }
+
+    # Asignar el nuevo título al fundador
+    title:k_catalunya = {
+        change_title_holder = {
+            holder = scope:founder
+            change = scope:title_change
+        }
+    }
+
+    # Resolver cambios de título y vasallaje
+    resolve_title_and_vassal_change = scope:title_change
+
+    # Configuración de de jure para los títulos
+    title:d_barcelona = {
+        set_de_jure_liege_title = title:k_catalunya
+    }
+    title:d_urgell = {
+        set_de_jure_liege_title = title:k_catalunya
+    }
+    title:d_catalunya_nova = {
+        set_de_jure_liege_title = title:k_catalunya
+    }
+
+    # Establecer la capital de iure del Principado
+    title:k_catalunya = {
+        set_capital_county = title:d_barcelona
+    }
+
+    # Aplicar la ley de sucesión barcelonesa
+   title:k_catalunya = {
+        add_title_law = barcelones_succession_law
+    } 
+    title:d_barcelona = {
+        add_title_law = barcelones_succession_law
+    }
+    title:c_barcelona = {
+        add_title_law = barcelones_succession_law
+    }
+
+    # Dar el apodo al fundador y otros efectos
+    scope:founder = {
+    give_nickname = nick_senyor
+    add_prestige = 400
+    add_legitimacy = 100
+    add_dynasty_prestige = 100
+    }
+}
+
+create_crown_aragon_empire_effect = {
+    # Crear el título y manejar cambios de vasallaje
+    create_title_and_vassal_change = {
+        type = created
+        save_scope_as = title_change
+        add_claim_on_loss = no
+    }
+
+    # Asignar el nuevo título al fundador
+    title:e_aragoncrown = {
+        change_title_holder = {
+            holder = scope:founder
+            change = scope:title_change
+        }
+    }
+
+    # Resolver cambios de título y vasallaje
+    resolve_title_and_vassal_change = scope:title_change
+
+    # Configuración de de jure para los reinos
+    title:k_aragon = {
+        set_de_jure_liege_title = title:e_aragoncrown
+    }
+    title:k_catalunya = {
+        set_de_jure_liege_title = title:e_aragoncrown
+    }
+    title:k_valencia = {
+        set_de_jure_liege_title = title:e_aragoncrown
+    }
+    title:k_sardinia = {
+        set_de_jure_liege_title = title:e_aragoncrown
+    }
+    title:k_sicily = {
+        set_de_jure_liege_title = title:e_aragoncrown
+    }
+
+    scope:founder = {
+    give_nickname = nick_the_great
+    add_prestige = 1000
+    add_legitimacy = 600
+    add_dynasty_prestige = 800
+    add_piety_level = 1
+    }
+}
+
