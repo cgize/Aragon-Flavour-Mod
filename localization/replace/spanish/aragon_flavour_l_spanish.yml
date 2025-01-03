@@ -9,7 +9,17 @@
   king_male_aragonese: "Rei"
   king_female_aragonese: "Reina"
   prince_male_catalan: "Princeps"
-  prince_female_catatlan: "Principissa"
+  prince_female_catalan: "Principissa"
+
+  #modifiers
+  founder_crown_aragon_modifier:0 "Heredad de la Corona"
+  founder_crown_aragon_modifier_desc:1 "La Corona de Aragón se alza como un símbolo de unidad y diversidad, guiando a sus reinos hacia la prosperidad y el prestigio. Este legado perdurará como prueba de la fuerza y visión de sus fundadores."
+  founder_catalunya_modifier:0 "Custodia de la Senyera"
+  founder_catalunya_modifier_desc:1 "El Principado de Cataluña, protegido bajo la sombra de la Senyera, simboliza la unión y el orgullo de un pueblo que ha defendido su cultura y territorio con valentía inquebrantable."
+  01_custom_modifier:0 "Virtud del Senyor"
+  01_custom_modifier_desc:1 "Un gobernante sabio y justo guía a su pueblo con honor y determinación, encarnando los valores de la nobleza y la responsabilidad."
+  02_custom_modifier:0 "Esplendor de Aragón"
+  02_custom_modifier_desc:1 "Bajo su brillante liderazgo, la Corona de Aragón alcanza nuevas alturas, irradiando grandeza y dejando una huella imborrable en la historia."
 
   #decisions
   completely_controls_aragon_tooltip: "Tienes el control total del [GetTitleByKey('k_aragon').GetName]."
@@ -24,17 +34,17 @@
   found_crown_of_aragon_decision_tooltip: "Proclamarás la Corona de Aragón, estableciendo un nuevo imperio."
 
   #events
- crown_aragon_event.001.t:0 "Nacimiento de la Corona de Aragón"
- crown_aragon_event.001.opening_titles:0 "Unificación de Reinos"
- crown_aragon_event.001.desc:0 "En un momento crucial para la historia de la península ibérica, los reinos de Aragón y Cataluña se han unido bajo una misma corona, dando origen a una potencia destinada a jugar un papel crucial en Europa. Este día marca el nacimiento de la Corona de Aragón, un faro de unidad y ambición."
- crown_aragon_event.001.a:0 "¡Gloria a la Corona de Aragón!"
- crown_aragon_event.002.t:0 "Reconocimiento del Principado de Cataluña"
- crown_aragon_event.002.opening_titles:0 "Autonomía Reconocida"
- crown_aragon_event.002.desc:0 "En un gesto de respeto hacia las tradiciones y autonomía catalanas, el Principado de Cataluña ha sido formalmente reconocido como una entidad política dentro de la Corona de Aragón. Este es un nuevo paso hacia la consolidación de la identidad catalana bajo el paraguas de la Corona."
- crown_aragon_event.002.a:0 "¡Larga vida al Principado de Cataluña!"
-  
+  crown_aragon_event.001.t:0 "Nacimiento de la Corona de Aragón"
+  crown_aragon_event.001.opening_titles:0 "Unificación de Reinos"
+  crown_aragon_event.001.desc:0 "En un momento crucial para la historia de la península ibérica, los reinos de Aragón y Cataluña se han unido bajo una misma corona, dando origen a una potencia destinada a jugar un papel crucial en Europa. Este día marca el nacimiento de la Corona de Aragón, un faro de unidad y ambición."
+  crown_aragon_event.001.a:0 "¡Gloria a la Corona de Aragón!"
+  crown_aragon_event.002.t:0 "Reconocimiento del Principado de Cataluña"
+  crown_aragon_event.002.opening_titles:0 "Autonomía Reconocida"
+  crown_aragon_event.002.desc:0 "En un gesto de respeto hacia las tradiciones y autonomía catalanas, el Principado de Cataluña ha sido formalmente reconocido como una entidad política dentro de la Corona de Aragón. Este es un nuevo paso hacia la consolidación de la identidad catalana bajo el paraguas de la Corona."
+  crown_aragon_event.002.a:0 "¡Larga vida al Principado de Cataluña!"
+    
   #wars
-  #war_878_Barcelona_Independence: "Alzamiento de Barcelona"
+  war_878_barcelona_rebellion:0 "Alzamiento de Barcelona"
 
   #laws
   barcelones_succession_law:0 "Sucesión Barcelonesa"

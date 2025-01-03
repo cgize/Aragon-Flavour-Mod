@@ -4788,9 +4788,7 @@ Gausbold001 = {
         birth = yes
     }
     855.1.1 = {
-        effect = {
-            add_spouse = Adalinda001
-        }
+        add_spouse = Adalinda001
     }
     861.7.11 = {
         death = {

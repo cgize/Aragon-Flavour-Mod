@@ -9,7 +9,17 @@
   king_male_aragonese: "Rei"
   king_female_aragonese: "Reina"
   prince_male_catalan: "Princeps"
-  prince_female_catatlan: "Principissa"
+  prince_female_catalan: "Principissa"
+
+  #modifiers
+  founder_crown_aragon_modifier:0 "Legacy of the Crown"
+  founder_crown_aragon_modifier_desc:1 "The Crown of Aragon stands as a symbol of unity and diversity, guiding its realms toward prosperity and prestige. This legacy will endure as a testament to the strength and vision of its founders."
+  founder_catalunya_modifier:0 "Custodian of the Senyera"
+  founder_catalunya_modifier_desc:1 "The Principality of Catalonia, safeguarded under the shadow of the Senyera, symbolizes the unity and pride of a people who have defended their culture and lands with unwavering bravery."
+  01_custom_modifier:0 "Virtue of the Lord"
+  01_custom_modifier_desc:1 "A wise and just ruler leads their people with honor and determination, embodying the values of nobility and responsibility."
+  02_custom_modifier:0 "Splendor of Aragon"
+  02_custom_modifier_desc:1 "Under their brilliant leadership, the Crown of Aragon reaches new heights, radiating greatness and leaving an indelible mark on history."
 
   #decisions
   completely_controls_aragon_tooltip: "You have complete control over [GetTitleByKey('k_aragon').GetName]."
@@ -34,7 +44,7 @@
   crown_aragon_event.002.a:0 "Long live the Principality of Catalonia!"
 
   #wars
-  #war_878_Barcelona_Independence: "Barcelona Uprising"
+  war_878_barcelona_rebellion:0 "Barcelona Uprising"
 
   #laws
   barcelones_succession_law:0 "Barcelonian Succession"
@@ -59,3 +69,4 @@
   #MMA
   almogavar:0 "Almogavar"
   almogavar_flavor:0 "#F Armed with light equipment and short javelins, these agile warriors excel in rough terrain, ambushing their enemies with quick and devastating strikes, becoming a terror for the unwary.#!"
+  

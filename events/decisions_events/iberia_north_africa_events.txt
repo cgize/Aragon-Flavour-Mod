@@ -1599,7 +1599,7 @@ iberia_north_africa.0122 = {
 }
 
 ##################################################
-# Mod by gizee
+# Mod by gizee / Reino de Aragon
 ##################################################
 
 # Script para copiar pilares de la cultura

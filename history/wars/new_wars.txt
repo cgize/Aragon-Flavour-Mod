@@ -1,6 +1,6 @@
 ﻿# Guerra de Independencia del Duque de Barcelona
 war = {
-    name = "war_878_Barcelona_Independence"
+    name = "war_878_barcelona_rebellion"
     start_date = 877.3.1
     end_date = 878.5.18
     targeted_titles = {
