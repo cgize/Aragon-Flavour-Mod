@@ -43,19 +43,21 @@
     title:c_barcelona = {
         add_title_law = barcelones_succession_law
     }
-
-    # Dar el apodo al fundador y otros efectos
+    
+    # Efectos para el fundador (personaje)
     scope:founder = {
-    give_nickname = nick_senyor
-    add_prestige = 400
-    add_legitimacy = 100
-    add_character_modifier = 01_custom_modifier
+        give_nickname = nick_senyor
+        add_prestige = 400
+        add_legitimacy = 100
+        add_character_modifier = 01_custom_modifier
+    }
+
+    # Efectos para la dinastía
     dynasty = {
         add_dynasty_prestige = 100
         add_dynasty_modifier = {
             modifier = founder_catalunya_modifier
             years = 100
-            }
         }
     }
 }
@@ -102,12 +104,13 @@ create_crown_aragon_empire_effect = {
     add_legitimacy = 600
     add_piety_level = 1
     add_character_modifier = 02_custom_modifier
+    }
+
     dynasty = {
-        add_dynasty_prestige = 800
-        add_dynasty_modifier = {
-            modifier = founder_crown_aragon_modifier
-            years = 100
-            }
+    add_dynasty_prestige = 800
+    add_dynasty_modifier = {
+        modifier = founder_crown_aragon_modifier
+        years = 100
         }
     }
 }

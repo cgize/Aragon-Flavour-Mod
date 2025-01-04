@@ -3,27 +3,27 @@ founder_crown_aragon_modifier = {
 	icon = prestige_positive
 	opinion_of_different_faith = 20
 	different_culture_opinion = 20
-	monthly_county_control_growth_factor = 0.6
-	monthly_dynasty_prestige_mult = 0.2
-	monthly_prestige_gain_mult = 0.25
-	levy_size = 0.15
+	monthly_county_control_growth_factor = 0.25
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_prestige_gain_mult = 0.1
+	levy_size = 0.1
 }
 
 founder_catalunya_modifier = {
 	icon = prestige_positive
-	levy_reinforcement_rate_same_faith = 0.5
+	levy_reinforcement_rate_same_faith = 0.15
 	same_faith_opinion = 10
-	monthly_prestige_gain_mult = 0.15
+	monthly_prestige_gain_mult = 0.05
 	same_heritage_county_advantage_add	= 8
-	knight_effectiveness_mult = 0.15
+	knight_effectiveness_mult = 0.1
 }
 
 01_custom_modifier = {
 	icon = martial_positive
 	health = 0.25
-	stress_gain_mult = -0.2
-	monthly_piety_gain_mult = 0.2
-	monthly_prestige_gain_mult = 0.2
+	stress_gain_mult = -0.1
+	monthly_piety_gain_mult = 0.02
+	monthly_prestige_gain_mult = 0.02
 	martial = 5
 	diplomacy = 5
 }
@@ -31,9 +31,9 @@ founder_catalunya_modifier = {
 02_custom_modifier = {
 	icon = martial_positive
 	health = 0.25
-	stress_gain_mult = -0.25
-	monthly_piety_gain_mult = 0.4
-	monthly_prestige_gain_mult = 0.4
+	stress_gain_mult = -0.2
+	monthly_piety_gain_mult = 0.05
+	monthly_prestige_gain_mult = 0.05
 	martial = 10
 	diplomacy = 10
 }
