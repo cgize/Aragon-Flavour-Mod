@@ -6,7 +6,7 @@ founder_crown_aragon_modifier = {
 	monthly_county_control_growth_factor = 0.6
 	monthly_dynasty_prestige_mult = 0.2
 	monthly_prestige_gain_mult = 0.25
-	levy_size_mult = 0.15
+	levy_size = 0.15
 }
 
 founder_catalunya_modifier = {
